@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato',sans-serif;
+    color: #505962;
+  }
+  
+  .offset::before{
+    display: block;
+    content: "";
+    height: 4rem;
+    margin-top: -4rem;
+  }
+
+/*navbar*/
+
+  .navbar{
+    text-transform: uppercase;
+    letter-spacing: .1 rem;
+    font-weight: 700;
+    font-size: .9rem;
+    background-color: rgba(0, 0, 0, .6)!important;
+  }
+  
+  .navbar-brand img{
+    height: 2rem;
+    margin-top: -.3rem;
+  }
+
+  .navbar-brand span{
+     font-size: 1.2rem;
+     margin-top: .5rem;
+     margin-left: .5rem;
+  }
+  
+  .navbar-nav li{
+    padding-right:0.7rem ;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link:hover{
+    color: #0890fe;
+  }
+
+  /*landing page*/
+
+  .home-inner{
+    background-image: url(img/BN-XR296_3lbiS_OR_20180228124917.jpg);
+  }
+
+  .caption{
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    max-width: 100%;
+    position:absolute;
+    top:38%;
+    z-index: 1;
+    padding-left: 1.2rem;
+  }
+
+  .caption h3{
+      font-size: 2rem;
+      font-weight: 700;
+      text-shadow: .1rem .1rem .5rem black;
+
+  }
+
+  .caption h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: .1rem .1rem .6rem black;
+    letter-spacing: .2rem;
+    padding:1.2rem 1.2rem 1.2rem 0;
+  }
+
+  .caption p{
+      font-size: 1.2rem;
+      text-shadow: .1rem .1rem .3rem black;
+      margin-top: 1.5rem ;
+  }
+
+  /*-- About section --*/
+
+  .cont{
+      padding: 2rem 1rem;
+  }
+
+  h3 .heading{
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+  }
+  
+  .heading-underline{
+    width: 3rem;
+    height: .2rem;
+    background-color:#0890fe ;
+    margin: 0 auto 2rem;
+  }
+
+  .blog h2{
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+     color:rgba(0, 0, 0, .85);
+  }
+
+  .blog h4{
+      font-size: 1.9rem;
+      margin-bottom: 1rem;
+  }
+
+  .blog p{
+      font-size: 1.2rem;
+      color: rgba(0, 0, 0, .6);
+      font-weight: 200;
+      margin-bottom: 1rem;
+  }
+
+  .narrow img{
+      margin-left: -1.5rem;
+  }
+
+  .narrow .workers{
+      width: 95%;
+      border: 1.5px solid #ccc;
+      padding: .2rem;
+      margin-left: 1.2rem;
+  }
+
+  /*-- start services --*/
+
+  .jumbotron{
+    margin-bottom: 0;
+    padding: 2rem 1rem 3.5rem 1rem;
+    border-radius: 0;
+  }
+
+  .service h1{
+      margin: 1.2rem 0;
+      color: rgba(0, 0, 0, .8);
+  }
+
+  .service p{
+      color: rgb(80, 80, 80,);
+  }
+
+  /*-- start projects --*/
+
+  
+  .project{
+    margin-top: 3rem;
+  }
+
+  .carousel-inner{
+      width: 70%;
+      margin: 0 auto;
+      margin-bottom: 6rem;
+  }
+
+  .carousel-caption h5{
+    font-size: 6rem;
+    text-shadow: .1rem .1rem .6rem black;
+  }
+
+  .carousel-caption p{
+    font-size: 1.5rem;
+    text-shadow: .05rem .05rem .2rem black;
+  }
+
+  .btn-secondary{
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    padding: .4rem 1rem;
+    margin-bottom: 3rem;
+    color: white;
+    background-color: #0890fe;
+    border-color:#0890fe ;
+  }
+  
+  .btn-secondary:hover{
+    background-color: #0775cf;
+    border-color:#0775cf ;
+  }
+
+  /*-- fixed-background --*/
+
+  .fixed-background{
+    padding: 9rem;
+  }
+
+  .fixed{
+    background-image: url(img/petrolio_Fotolia_101306852_Subscription_XL.jpg--oil_pumps.jpg);
+  }
+
+  .fixed-background h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1.1rem;
+    text-shadow: .1rem .1rem .5rem black;
+  }
+
+  .fixed-background p{
+    font-size: 1.7rem;
+    color: white;
+    margin-bottom: 1.7rem;
+    text-shadow: .05rem .05rem .8rem black;
+  }
+
+  .fixed-background .btn{
+    border-radius: 0;
+    border-width: medium;
+    padding: 0.6rem 1.3rem;
+    font-size: 1.4rem;
+  }
+
+  /*-- news section --*/
+
+  .new{
+    padding: 3rem;
+  }
+
+  .new .row{
+    padding-left: 2.4rem;
+  }
+
+  .card-body p{
+    font-size: 1.7rem;
+  }
+
+  .card-body .new-hr{
+    border-top: 2px solid #0890fe;
+  } 
+
+ 
+
+  /*-- contact section --*/
+
+  
+footer{
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-top: 1rem;
+}
+
+footer .row{
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer img{
+  height: 3rem;
+  margin: 1.5rem 0;
+
+}
+
+footer a{
+  color: white;
+  display: block;
+}
+
+footer .row .logo{
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding-left: .4rem;
+}
+
+
+footer .row img{
+  margin-top: -.1rem;
+}
+
+footer .row p{
+  color: rgb(30, 30, 30);
+  line-height: 2rem;
+}
+
+footer .row h4{
+  font-weight: 300;
+  letter-spacing: .2rem;
+  margin-bottom: 1rem;
+}
+
+footer .row a{
+  font-weight: 700;
+  margin-bottom: .8rem;
+}
+
+footer .row a:hover{
+  text-decoration: none;
+}
+
+footer .svg-inline--fa{
+  margin-right: .5rem;
+  color: #0890fe;
+}
+
+.soket{
+  width: 100%;
+  border: .2rem solid #666b71;
+  margin-top: 3rem;
+}
+
+footer .foot{
+  margin: 0 auto;
+}
+
+
+
+@media (max-width:767px){
+
+  .caption h3{
+    font-size: 1.4rem;
+  }
+
+  .caption h1{
+    font-size: 2.8rem;
+  }
+
+  .fixed-background h1{
+    font-size: 1.7rem;
+  }
+
+  .fixed-background p{
+    font-size: 1.2rem;
+  }
+
+  .fixed-background .btn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem; 
+  }
+
+  .new .row{
+    padding-left: 0;
+  }
+
+  .service{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .cont{
+    margin-left: 1.5rem;
+  }
+
+}
